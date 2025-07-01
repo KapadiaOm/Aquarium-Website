@@ -1,0 +1,205 @@
+body{
+    overflow-x: hidden;
+    overflow-x: clip !important;
+    font-family: "A Caslon Pro";
+    background-image: url(assets/Background.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+section{
+    padding: 60px 0;
+    max-width: 100%;
+}
+.wave{
+    background-image: url(assets/Rectangle\ 2.svg);
+    background-repeat: repeat-x;
+} 
+@media screen and (max-width: 1200px) {
+    body{
+    background-image: none
+    }
+    .services-img-container{
+    position: relative;
+    }
+    .nav-bg{
+        max-width: 100%;
+        background:white;
+        z-index: 100;
+    }
+    .services-img{
+        position: absolute;
+        top: 100px;
+        right: 50px;
+    }
+    .text-lorem-3{
+        max-width: 90%;
+    } 
+    .flex-div{
+        max-width: 100%;
+    }
+    .underline-span::after,
+    .underline-span1::after,
+    .underline-span2::after,
+    .underline-span3::after,
+    .underline-span4::after{
+        max-width: 100%;
+    }
+}
+@media screen and (min-width: 1200px) { 
+    .wave{
+        background-position: center;
+    } 
+    .Welcome-container{
+        float: left;
+    }
+    .text-lorem{
+        max-width: 40%;
+    }
+    .text-lorem-2{
+        max-width: 60%;
+    }
+    .view-more{
+        position: absolute;
+        left: 190px;
+        bottom: 200px;
+    }
+    .nav-bg{
+        max-width: 58%;
+        background:transparent;
+        z-index: 100;
+        backdrop-filter: blur(10px);
+    }
+    .pad-div{
+    padding-bottom: 100px;
+    }
+    .text-lorem-5{
+        max-width: 80%;
+        text-align: center;
+    }
+    .services-img-container{
+    position: relative;
+    }
+    .services-img{
+        position: absolute;
+        top: 100px;
+        right: 50px;
+    }
+}
+@media screen and (max-width:992px){
+    .wave{
+        background-image: none;
+        background-color: #0212aa;
+    }  
+    .contact-img img{
+        width: 50px;
+    }          
+}
+@media screen and (min-width: 992px){
+    .wave{
+    background-image: url(assets/Rectangle\ 2.svg);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    height: 450px;
+}  
+}
+@media screen and (max-width:576px) {
+    footer h4{
+        font-size: 12pt;
+    }            
+} 
+.Welcome-container{
+    height: 100vh;
+    position: relative;
+}
+.flex-div{
+    width: 100%;
+}
+.underline-span,
+.underline-span1,
+.underline-span2,
+.underline-span3,
+.underline-span4{
+    text-decoration:none;
+    position: relative;
+}
+.underline-span::after{
+    position: absolute;
+    content: '';
+    height: 7px;
+    bottom: -10px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 267px;
+    background: #1a2675;
+}
+.underline-span1::after{
+    position: absolute;
+    content: '';
+    height: 7px;
+    bottom: -10px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 169px;
+    background: #1a2675;
+}
+.underline-span2::after{
+    position: absolute;
+    content: '';
+    height: 7px;
+    bottom: -10px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 206px;
+    background: #1a2675;
+}
+.underline-span3::after{
+    position: absolute;
+    content: '';
+    height: 7px;
+    bottom: -10px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 195px;
+    background: #1a2675;
+}
+.underline-span4::after{
+    position: absolute;
+    content: '';
+    height: 7px;
+    bottom: -10px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 238px;
+    background: #1a2675;
+}
+.about-content{
+    position: relative;
+    color: #1a2675;
+}
+.outer-div{
+    position: relative;
+}    
+.inner-div{
+    width: 800px;
+    position: absolute;
+    bottom: -100px;
+    right: -530px;
+    padding-left: 100px;
+}
+.text-lorem-1{
+    max-width: 80%;
+}
+.contact-titles{
+    font-family: "Open Sans";
+}
+.contact-text,.footer-text{
+    font-family: "Maven Pro";
+}
+.blog-font{
+    font-family: 'Avenir LT Pro', sans-serif;
+}
